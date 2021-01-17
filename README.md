@@ -21,24 +21,25 @@ Your application should display and execute a menu with the following options. A
 6.	Sort and display taxpayers
 7.	Exit from the application
 
-1.	Read, validate and store data for N taxpayers
+
+**Read, validate and store data for N taxpayers**
 This option reads name, age and taxable income for N taxpayers from the keyboard and stores them in an Array or ArrayList. If the age is less than 18 and greater than 64 then an appropriate message should be displayed and the user should be asked to enter the age again. Similarly if the taxable income is less than $1 and greater than $999000 then an appropriate message should be displayed and the user should be asked to enter the taxable income again.
 
-2.	Calculate and store tax and group number for all taxpayers
+**Calculate and store tax and group number for all taxpayers**
 This option calculates the tax and group number based on Table 1 for each taxpayer and then stores tax and group number in Array or ArrayList.
 
-3.	Display all taxpayers
+**Display all taxpayers**
 This option displays the data (name, age, taxable income, tax, group number) for all taxpayers.
  
-4.	Display the name and age of all taxpayers from tax group 1
+**Display the name and age of all taxpayers from tax group 1**
 This option displays the name and age of all taxpayers from tax group 1. If there is no taxpayer in group 1 then it displays an appropriate message.
 
-5.	Search a taxpayer by age
+**Search a taxpayer by age**
 This option asks user to enter the taxpayer’s age and searches for it. If the age is found then it displays an appropriate message with taxpayer details (name, age, taxable income, tax, group number). If age is not found then it displays an appropriate message “taxpayer with given age is not found”. If there is more than one taxpayer with the given age then it displays all of them. A built-in search algorithm is not allowed in this assignment.
 
-6.	Sort and display taxpayers
+**Sort and display taxpayers**
 This option sorts (by name) all taxpayers stored in Array or ArrayList in descending order and displays all sorted taxpayers (name, age, taxable income, tax, group number). You can use any sorting algorithm. A built-in sort algorithm for sorting is not allowed in this assignment.
 
-7.	Exit from the application
+**Exit from the application**
 The application should display an appropriate message with student name and then exit from the application.
 
